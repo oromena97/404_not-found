@@ -1,0 +1,60 @@
+main {
+    
+    display: flex;
+    padding: 45px;
+}
+/* 
+/* .img-container, .page-text {
+    width: 40%; */
+     */
+
+.img-container {
+    margin-right: 45px;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.page-title {
+    font-size: 64px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    line-height: 94.78px;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    top: 663px;
+    left: 740px;
+    background-color: black;
+    color: white;
+}
+
+.page-section {
+    font-size: 24px;
+    font-family: 'Space Mono';
+    font-weight: 400;
+    line-height: 35.54px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+
+  }
+  
+  footer {
+    font-size: 10px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 17.07;
+    text-align: center;
+
+  }
